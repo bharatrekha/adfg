@@ -10,9 +10,6 @@
 		},
 		"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
 			"value": "https://dev-keeyvd.vault.azure.net/"
-		},
-		"trigger1_properties_typeProperties_scope": {
-			"value": "/subscriptions/a7b11a60-83fc-4e11-a87a-058adb1dcbf3/resourceGroups/project-dev/providers/Microsoft.Storage/storageAccounts/storagedeve"
 		}
 	}
 }
