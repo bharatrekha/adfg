@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "devv-adf"
+		},
+		"AzureBlobStorage_ls_dev_properties_typeProperties_connectionString_secretName": {
+			"value": "dev-secrete"
+		},
+		"AzureKeyVault_LS_properties_typeProperties_baseUrl": {
+			"value": "https://dev-keeyvd.vault.azure.net/"
+		}
+	}
+}
