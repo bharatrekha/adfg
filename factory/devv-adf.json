@@ -1,0 +1,9 @@
+{
+	"name": "devv-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "776a1ad6-068e-4530-880a-efc5b2df40ea",
+		"tenantId": "56911f6a-9e8f-4024-8a5c-130e6b6b31ae"
+	}
+}
