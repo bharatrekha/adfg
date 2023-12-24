@@ -44,7 +44,16 @@
 							"secureOutput": false,
 							"secureInput": false
 						},
-						"userProperties": [],
+						"userProperties": [
+							{
+								"name": "Source",
+								"value": "input//@{pipeline().parameters.filename}"
+							},
+							{
+								"name": "Destination",
+								"value": "output//@{pipeline().parameters.filename}"
+							}
+						],
 						"typeProperties": {
 							"source": {
 								"type": "DelimitedTextSource",
@@ -60,7 +69,11 @@
 							"sink": {
 								"type": "DelimitedTextSink",
 								"storeSettings": {
-									"type": "AzureBlobStorageWriteSettings"
+									"type": "AzureBlobStorageWriteSettings",
+									"copyBehavior": {
+										"value": "@pipeline().parameters.filename",
+										"type": "Expression"
+									}
 								},
 								"formatSettings": {
 									"type": "DelimitedTextWriteSettings",
