@@ -17,7 +17,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/input/blobs/Sales",
-			"ignoreEmptyBlobs": true,
+			"ignoreEmptyBlobs": false,
 			"scope": "/subscriptions/a7b11a60-83fc-4e11-a87a-058adb1dcbf3/resourceGroups/project-dev/providers/Microsoft.Storage/storageAccounts/storagedeve",
 			"events": [
 				"Microsoft.Storage.BlobCreated"
